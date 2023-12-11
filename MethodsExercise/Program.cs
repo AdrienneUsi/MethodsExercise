@@ -1,29 +1,25 @@
-﻿using System;
+﻿using System.Drawing;
 
 namespace MethodsExercise
-
 {
-    class Program
-    {
-
+    public class Program { 
         public static int Sum(int num1, int num2)
-        {
-
-            var answer = num1 + num2;
-            return answer;
-        }
-        public static int Multiply(int num1, int num2, int num3)
-        {
-            return num1 * num2 * num3;
-
-        }
+    {
+        var answer = num1 + num2;
+        return answer;
+    }
+    public static int Multiply(int num1, int num2, int num3)
+    {
+        return num1 * num2 * num3;
+    }
+  
         static void Main(string[] args)
         {
-            var amountOfGifts = Sum(2, 6);
-            var amountOfMoney = Multiply(5, 10, 100);
+        var amountOfGifts = Sum(3, 3);
+        var amountOfMoney = Multiply(5, 10, 20);
 
-            Console.WriteLine($" {amountOfGifts} ");
-            Console.WriteLine($" {amountOfMoney} ");
+        Console.WriteLine($"{amountOfGifts}");
+        Console.WriteLine($"{amountOfMoney}");
 
             // Excercise 1
             //Name: Adrienne
@@ -34,7 +30,7 @@ namespace MethodsExercise
             Console.WriteLine("Greetings! What is your name?");
             var userName = Console.ReadLine();
 
-            Console.WriteLine($"Welcome {userName} Where are you from?"!);
+            Console.WriteLine($"Welcome {userName} Where are you from?");
             var from = Console.ReadLine();
 
             Console.WriteLine($"Wow! {from} is a great place! Who is your favorite singer?");
@@ -49,14 +45,11 @@ namespace MethodsExercise
             Console.WriteLine($"From: {from}");
             Console.WriteLine($"Favorite Singer:{singer}");
             Console.WriteLine($"Favirite Song:{song}");
-        }
-    }
 
+        } }
 }
-    
-        //Exercise#2 Methods Exercise!!!
         
-           
+
         
    
     
