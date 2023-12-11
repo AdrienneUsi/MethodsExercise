@@ -4,7 +4,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MethodsExercise" expanded="True" selected="True" />
+          <Node name="MethodsExercise" expanded="True">
+            <Node name="MethodsExercise" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
